@@ -1,0 +1,41 @@
+hr {
+  height: 30px;
+  background-color: black;
+  margin: 20px 0;
+}
+
+.hard-mode div{
+  color: white;
+  font-size: 26px;
+  font-weight: normal;
+}
+
+.container {
+  box-sizing: border-box;
+  display: block;
+  width: 400px;
+  height: 400px;
+  background-color: lightgreen;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+
+.clear-button input {
+  border: none;
+  background: blue;
+  color: white;
+  font-size: 26px;
+  font-weight: normal;
+}
+
+.clear-button {
+  display: inline-block;
+  width: 25%;
+  height: 20%;
+  background-color: yellow; 
+}
+
+.answer-box {
+
+}

@@ -1,3 +1,5 @@
+// NORMAL MODE ************
+
 // calculate function
 var calculate1 = function (x, y) {
   return x * y;
@@ -24,3 +26,6 @@ var submit = function () {
 
 // button click
 submitBtn.addEventListener ('click', submit);
+
+
+// HARD MODE ******
