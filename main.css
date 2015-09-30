@@ -4,38 +4,54 @@ hr {
   margin: 20px 0;
 }
 
-.hard-mode div{
-  color: white;
-  font-size: 26px;
-  font-weight: normal;
+.hard-mode * {
+  font-size: 30px;
+  font-family: 'Open-Sans', sans-serif;
+  background-color: lightgreen;
 }
 
+
 .container {
-  box-sizing: border-box;
   display: block;
   width: 400px;
   height: 400px;
-  background-color: lightgreen;
   margin: 0 auto;
-  border: 1px solid black;
+  padding: 0;
+
 }
 
-
-.clear-button input {
-  border: none;
-  background: blue;
-  color: white;
-  font-size: 26px;
-  font-weight: normal;
+.row {
+  display: block;
+  height: 20%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.clear-button {
+.clear-block {
   display: inline-block;
   width: 25%;
-  height: 20%;
-  background-color: yellow; 
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-.answer-box {
-
+.answer-block {
+  display: inline-block;
+  text-align: right;
+  width: 70%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 15px 0;
 }
+
+.calculator-block {
+  width: 23%;
+  display: inline-block;
+  text-align: center;
+}
+
